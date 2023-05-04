@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(148, 148, 235);
+}
+nav{
+    background-color: rgb(207, 82, 23);
+    clear: both;
+    color: rgb(143, 138, 167);
+    text-align: center;
+    padding: 5px 0;
+    display: flex;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    color: rgb(148, 148, 235);
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+    margin-left: 100px;
+}
+h1{
+    background-color: rgb(159, 159, 204);
+    text-align: center;
+}
+.restaurante{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    border: 10px;
+    font-size: x-large;
+}
+.restaurante img{
+    background-color: brown;
+    border: 10px;
+    padding: 10px;
+    display: flex;
+    margin-left: 600px;
+}
+.horarios{
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    border: 10px;
+    font-size: x-large;
+}
+.horarios img{
+    background-color: rgb(214, 190, 55);
+    border: 10px;
+    padding: 10px;
+    display: flex;
+    margin-left: 600px;
+}
+.empleado1 img{
+    background-color: aliceblue;
+    border: 5px;
+    padding: 10px;
+    display: flex;
+}
+.empleado1{
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    border: 10px;
+    font-size: x-large;
+}
+.empleado2 img{
+    background-color: aliceblue;
+    border: 5px;
+    padding: 10px;
+    display: flex;
+    width: 600px;
+    height: 300px;
+}
+.empleado2{
+    text-align: right;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    border: 10px;
+    font-size: x-large;
+}
