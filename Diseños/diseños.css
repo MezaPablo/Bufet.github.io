@@ -1,8 +1,7 @@
 body{
-    background-color: rgb(148, 148, 235);
+    background-color: rgb(13, 13, 14);
 }
 nav{
-    background-color: rgb(207, 82, 23);
     clear: both;
     color: rgb(143, 138, 167);
     text-align: center;
@@ -10,10 +9,12 @@ nav{
     display: flex;
 }
 nav ul{
+    background-color: rgb(245, 54, 16);
     list-style: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 0px;
     display: flex;
+    width: 1200px;
 }
 nav ul li{
     color: rgb(148, 148, 235);
@@ -23,9 +24,30 @@ nav ul li{
     text-align: center;
     margin-left: 100px;
 }
-h1{
-    background-color: rgb(159, 159, 204);
+.logo img{
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+}
+.centro img{
     text-align: center;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    width: 400px;
+    height: 200px;
+    margin-left: 450px;
+}
+.centro2 img{
+    text-align: center;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    margin-left: 150px;
 }
 .restaurante{
     text-align: center;
@@ -36,7 +58,6 @@ h1{
     font-size: x-large;
 }
 .restaurante img{
-    background-color: brown;
     border: 10px;
     padding: 10px;
     display: flex;
@@ -51,7 +72,6 @@ h1{
     font-size: x-large;
 }
 .horarios img{
-    background-color: rgb(214, 190, 55);
     border: 10px;
     padding: 10px;
     display: flex;
@@ -86,4 +106,7 @@ h1{
     display: flex;
     border: 10px;
     font-size: x-large;
+}
+.card {
+    background-color: black;
 }
