@@ -1,15 +1,15 @@
 body{
-    background-color: rgb(13, 13, 14);
+    background-color: rgb(13, 13, 14) !important;
 }
 nav{
     clear: both;
-    color: rgb(143, 138, 167);
     text-align: center;
     padding: 5px 0;
     display: flex;
 }
 nav ul{
-    background-color: rgb(245, 54, 16);
+    color: rgb(245, 238, 238);
+    background-color: rgb(217, 231, 22);
     list-style: none;
     margin: 10px;
     padding: 0px;
@@ -17,7 +17,6 @@ nav ul{
     width: 1200px;
 }
 nav ul li{
-    color: rgb(148, 148, 235);
     text-decoration: none;
     padding: 3px 6px;
     display: block;
@@ -31,13 +30,16 @@ nav ul li{
     width: 80px;
     height: 80px;
 }
+.centro{
+    background-color: black;
+}
 .centro img{
     text-align: center;
     border: 0px;
     padding: 0px;
     display: flex;
     width: 400px;
-    height: 200px;
+    height: 400px;
     margin-left: 450px;
 }
 .centro2 img{
@@ -50,6 +52,7 @@ nav ul li{
     margin-left: 150px;
 }
 .restaurante{
+    color: aliceblue;
     text-align: center;
     margin-top: 10px;
     padding: 10px;
@@ -77,8 +80,13 @@ nav ul li{
     display: flex;
     margin-left: 600px;
 }
+h1{
+    color: aliceblue !important;
+}
+h6{
+    color: black;
+}
 .empleado1 img{
-    background-color: aliceblue;
     border: 5px;
     padding: 10px;
     display: flex;
@@ -90,9 +98,9 @@ nav ul li{
     display: flex;
     border: 10px;
     font-size: x-large;
+    color: aliceblue;
 }
 .empleado2 img{
-    background-color: aliceblue;
     border: 5px;
     padding: 10px;
     display: flex;
@@ -100,6 +108,7 @@ nav ul li{
     height: 300px;
 }
 .empleado2{
+    color: aliceblue;
     text-align: right;
     margin-top: 10px;
     padding: 10px;
@@ -107,6 +116,50 @@ nav ul li{
     border: 10px;
     font-size: x-large;
 }
+ul li {
+    display: flex;
+    list-style: none;
+}
 .card {
-    background-color: black;
+    margin: 10px;
+}
+.card img {
+    width: 285px;
+    height: 180px;
+}
+p {
+    color: aliceblue;
+}
+.title {
+    font-size:xx-large;
+    text-align: center;
+}
+.listacarro {
+    color: aliceblue;
+    text-align: center;
+}
+.galeria {
+    display: flex;
+    width: 1000px;
+    height: 330px;
+    margin-left: 200px;
+}
+.galeria img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 8;
+    transition: 5s ease;
+}
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+.contactos{
+    font-size: x-large;
+}
+footer{
+    color: rgb(95, 221, 221);
 }

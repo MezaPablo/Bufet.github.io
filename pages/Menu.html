@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1">
+        <title> BUFET 204 </title>
+        <link rel="stylesheet" href="../CSS/diseños.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    </head>
+    <body>
+        <nav>
+          <section class="logo">
+          <img src="../img/nuevo.icono.jpg" alt="logo">
+          </section>
+            <div class="Holder">
+                <ul>
+                    <li> <a href="../index.html">Home ⌂</a>
+                </li>
+                <li><a class="activo" href="../pages/Nosotros.html">Nosotros</a></li>
+                <li><a class="activo2" href="../pages/Menu.html">Menu</a></li>
+                <li><a class="activo3" href="../pages/Reservas.html">Reservas</a></li>
+                </ul>
+            </div>
+         </nav>
+         <h1> Menu </h1>
+         <ul>
+          <li>
+            <div class="card" style="width: 18rem;">
+            <img src="../img/platillo1.jpeg" class="card-img-top" alt="Guarnision">
+            <div class="card-body">
+              <h5 class="card-title">Guarnision de pollo y verduras</h5>
+              <h6 class="card-text">Una porcion pequeña de pollo al horno acompañado de verduras a eleccion.</h6>
+              <button id="boton3" class="btn btn-primary" onclick="agregar()">Agregar ↷: $1500</button>
+            </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+            <img src="../img/plato2.jpeg" class="card-img-top" alt="plato2">
+            <div class="card-body">
+              <h5 class="card-title">Milanesa con papas</h5>
+              <h6 class="card-text">La clasica milanesa con papas, acompañada de una ensalada de lechuga y tomate con aderesos para las papas.</h6>
+              <button id="boton2" class="btn btn-primary" onclick="agregar1()">Agregar ↷: $2300</button>
+            </div>
+            </div>
+          <div class="card" style="width: 18rem;">
+            <img src="../img/postre1.jpeg" class="card-img-top" alt="postre1">
+            <div class="card-body">
+              <h5 class="card-title">Postre de frutilla</h5>
+              <h6 class="card-text">Un postre de frutilla que viene con una frutilla acompañada de helado</h6>
+              <button id="boton1" class="btn btn-primary" onclick="agregar2()">Agregar ↷: $730</button>
+            </div>
+            </div>
+          </li>
+          </ul>
+          <p class="title">Carrito</p>
+          <section class="listacarro">
+          <ul id="listacarro"></ul>
+          <div class="precios">
+          <h3>Total $</h3>
+          <h3 class="Total" id="Total">0</h3>
+          </div>
+          </section>
+          <script src="../scripts/carrito.menu.js"></script>
+          <footer>
+            <p> Diseñado por Pablo Meza --@meza_pablo5012 </p>
+            </footer>
+    </body>
